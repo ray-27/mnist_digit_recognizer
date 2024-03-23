@@ -69,3 +69,6 @@ def train(Epoches = 100,Learning_rate = 1e-4,Batch_size = 4):
     try:
         plot_loss(loss_list,save=True)
     except: print("could not upload the plot to drive")
+
+if __name__ == "__main__":
+    train()
